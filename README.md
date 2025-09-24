@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Login Seguro — Spring Boot + Thymeleaf + MongoDB Atlas
 
 Sistema de autenticação e autorização com **Spring Security** e **MongoDB Atlas**, com **Spring Session (MongoDB)** para armazenamento de sessões.
@@ -60,7 +61,7 @@ Pensado para ser **modular e temável**, permitindo adaptação posterior ao tem
    ```
 
 5. **Acessar**
-   - http://localhost:8888  
+   - http://localhost:0
    - Login inicial (se for o primeiro start e você **não** definiu `ADMIN_INIT_PASSWORD`):  
      verifique a senha temporária **gerada** no console.  
    - Após logar, vá para **/admin** para testar autorização.
@@ -116,3 +117,6 @@ src/main/resources
 
 ## Licença
 MIT
+=======
+# login-seguro
+>>>>>>> ee0a577d27b418e694f97056877cae3d8e2986f0
