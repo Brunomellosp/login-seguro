@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head th:replace="~{fragments/head :: title}"></head>
+<body>
+<div th:replace="~{fragments/navbar :: navbar}"></div>
+<main class="container">
+    <h1>Bem-vindo(a)!</h1>
+    <p>Este é um esqueleto de sistema de Login Seguro com Spring Security + MongoDB Atlas + Thymeleaf.</p>
+    <p>O tema atual é: <strong th:text="${appTheme}"></strong>.</p>
+    <p>Use o menu para navegar. Página <code>/admin</code> exige o papel <code>ADMIN</code>.</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: title}"></head>
+<body>
+<div th:replace="~{fragments/navbar :: navbar}"></div>
+<main class="container">
+    <h1>Área Administrativa</h1>
+    <p>Somente usuários com papel <code>ADMIN</code> podem ver esta página.</p>
+</main>
+</body>
+</html>

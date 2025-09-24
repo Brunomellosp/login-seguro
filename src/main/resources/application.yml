@@ -1,0 +1,17 @@
+server:
+  port: 0
+
+spring:
+  data:
+    mongodb:
+      uri: "mongodb+srv://brunomellosp:teste123@cluster0.savriux.mongodb.net/login_seguro?retryWrites=true&w=majority&appName=Cluster0"
+  thymeleaf:
+    cache: false
+
+  session:
+    store-type: mongodb
+    mongodb:
+      collection-name: sessions
+
+app:
+  theme: default
